@@ -9,9 +9,6 @@ A **fun and interactive quiz application** built using **Streamlit**. This app t
 - 🎯 **Instant feedback on answers**  
 - 🎊 **Score calculation with success/failure message**  
 - 📊 **Quiz summary displayed in a table**  
-- 🎈 **Confetti effect on a perfect score**  
-- 🛠 **Lightweight & easy to use**  
+- 🎈 **Confetti effect on a perfect score**   
 
-### **1️⃣ Live wb link**  
-```bash
-https://python-quiz-web.streamlit.app/
+###  🛠 Live wb link : https://python-quiz-web.streamlit.app/
