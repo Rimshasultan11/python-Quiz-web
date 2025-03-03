@@ -6,7 +6,6 @@ import pandas as pd
 if 'quiz_started' not in st.session_state:
     st.session_state.quiz_started = False
 
-# Home Page with Image/GIF
 st.set_page_config(
     page_title="Quiz",
     page_icon="🏆",
@@ -17,7 +16,6 @@ st.title("🎉 Welcome to the Quiz! 🏆")
 
 st.write("This quiz will test your knowledge of Python and Streamlit! Ready to challenge yourself?")
 
-st.info("👈 Let's Start a Fun and Educational Quiz! 🎉")
 
 # Sidebar Navigation
 st.sidebar.markdown("### Enter your details to start the quiz")
@@ -78,4 +76,5 @@ if st.session_state.quiz_started:
     # Footer
     st.markdown("---")
     st.write("📌 Made by || Rimsha sultan 🧡")
-
+else:
+    st.info("👈 Let's Start a Fun and Educational Quiz! 🎉")
